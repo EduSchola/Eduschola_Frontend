@@ -1,10 +1,10 @@
 export type StaffIT = {
-  staff_id: number;
+  staff_id: string;
   user: string;
-  phone: number;
+  phone: string;
   email: string;
   address: string;
-  school?: string;
+  school: string;
   subjects: string[];
   staff_role: string;
 };
