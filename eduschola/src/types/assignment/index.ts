@@ -1,4 +1,4 @@
-interface AssignmentIT{
+export type AssignmentIT ={
     assignment_id: string;
     title: string;
     description: string;

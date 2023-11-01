@@ -1,4 +1,4 @@
-interface ParentIT {
+export type ParentIT = {
     parent_id: string;
     user: string;
     phone: string;
