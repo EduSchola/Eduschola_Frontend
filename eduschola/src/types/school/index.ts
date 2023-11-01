@@ -1,4 +1,4 @@
-export type SchoolIT = {
+interface SchoolIT {
     school_id: string;
     name: string;
     phone: string;
