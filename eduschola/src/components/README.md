@@ -1,0 +1,1 @@
+This folder contains reusable components. Components are grouped based on similarities
