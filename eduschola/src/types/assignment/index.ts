@@ -1,4 +1,4 @@
-interface AssignmentIT{
+interface AssignmentIT {
     assignment_id: string;
     title: string;
     description: string;
