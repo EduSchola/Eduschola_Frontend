@@ -24,6 +24,8 @@ const config: Config = {
         cta_hover: "#ED9512",
         footerbg: "#1E1E1E",
         footerExt: "#3A72AA",
+        formbg: "#3A72AA",
+        goldbg: "#4483C1",
       },
     },
   },
