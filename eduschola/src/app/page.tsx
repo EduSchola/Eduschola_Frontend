@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero/HeroSection";
 import NavBar from "@/components/Nav/NavBar";
 import Footer from "@/components/FooterSection/Footer";
+import Review from "@/components/ReviewSection/Review";
 import PaymentCard from "@/components/PaymentCardSection/PaymentCard";
 import GetStarted from "@/components/GetStartedSection/getStarted";
 import WhatWeOffer from "@/components/WhatWeOfferSection/WhatWeOffer";
@@ -12,6 +13,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <WhatWeOffer />
+      <Review />
       <PaymentCard />
       <Footer />
       
