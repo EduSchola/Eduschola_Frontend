@@ -1,4 +1,4 @@
-export type StaffIT = {
+interface StaffIT {
   staff_id: string;
   user: string;
   phone: string;
