@@ -1,4 +1,4 @@
-export type CourseIT = {
+interface CourseIT {
   course_id: string;
   name: string;
   description: string;
