@@ -16,10 +16,10 @@ const PaymentCard = () => {
           onClick={handleToggle}
         >
           
-          <div className="flex flex-row text-formbg bg-white w-full h-full p-2 items-center justify-center">
+          <section className="flex flex-row text-formbg bg-white w-full h-full p-2 items-center justify-center">
             <span className="mr-10">Monthly</span>
             <span>Annually</span>
-          </div>
+          </section>
           <input
             type="checkbox"
             id="subscription-mode-toggle"
@@ -38,17 +38,17 @@ const PaymentCard = () => {
             </span>
           </label>
           
-        </div>
-        <div className="flex absolute rounded-full w-16 h-5 left-64 bg-cta text-white items-center justify-center text-xs">
+        </section>
+        <section className="flex absolute rounded-full w-16 h-5 left-64 bg-cta text-white items-center justify-center text-xs">
             <span>save 17%</span>
-        </div>
-      </div>
-      <div className="flex items-center justify-center text-formbg text-lg mt-10 relative">Get started with one of our subscription plans</div>
+        </section>
+      </section>
+      <section className="flex items-center justify-center text-formbg text-lg mt-10 relative">Get started with one of our subscription plans</section>
             
-      <div className="flex flex-col w-full justify-center items-center text-white relative my-8 lg:flex lg:flex-row">
+      <section className="flex flex-col w-full justify-center items-center text-white relative my-8 lg:flex lg:flex-row">
         {/* payment cards container*/}
 
-        <div className="flex flex-col rounded-2xl w-[80%] h-90 bg-formbg justify-center items-center my-2 py-8 lg:w-80 lg:order-1">
+        <section className="flex flex-col rounded-2xl w-[80%] h-90 bg-formbg justify-center items-center my-2 py-8 lg:w-80 lg:order-1">
           <h1 className="font-extrabold text-4xl mb-4">Bronze</h1>
           <span className="text-l mb-4">Features</span>
           <h1 className="font-extrabold text-4xl">$29.75 </h1>
@@ -61,9 +61,9 @@ const PaymentCard = () => {
 
           <button className="bg-white text-formbg font-bold items-center justify-center rounded-xl w-[60%] py-2 px-8 mt-4 mb-2">Start Free Trial</button>
           <span>Learn more</span>
-        </div>
+        </section>
 
-        <div className="flex flex-col rounded-2xl w-[80%] bg-formbg justify-center items-center my-2 py-8 lg:w-80 lg:order-3">
+        <section className="flex flex-col rounded-2xl w-[80%] bg-formbg justify-center items-center my-2 py-8 lg:w-80 lg:order-3">
           <h1 className="font-extrabold text-4xl mb-4">Silver</h1>
           <span className="text-l mb-4">Basic Features</span>
           <h1 className="font-extrabold text-4xl">$39.75 </h1>
@@ -77,27 +77,27 @@ const PaymentCard = () => {
 
           <button className="bg-white text-formbg font-bold items-center justify-center rounded-xl w-[60%] py-2 px-8 mt-4 mb-2">Start Free Trial</button>
           <span>Learn more</span>
-        </div>
+        </section>
 
-        <div className="flex flex-col rounded-2xl w-[85%] h-90 bg-formbg justify-center items-center my-2 py-8 lg:w-80 lg:order-2 lg:z-10 lg:bg-goldbg">
+        <section className="flex flex-col rounded-2xl w-[85%] h-90 bg-formbg justify-center items-center my-2 py-8 lg:w-80 lg:order-2 lg:z-10 lg:bg-goldbg">
           <h1 className="font-extrabold text-4xl mb-4">Gold</h1>
           <span className="text-l mb-4">Features</span>
           <h1 className="font-extrabold text-4xl">$49.75 </h1>
           <span className="text-l mb-4"> /per Month</span>
           <span className="font-semibold">What is included</span>
-          <div className="flex w-[80%] items-center justify-center">
+          <section className="flex w-[80%] items-center justify-center">
             <ul className="list-disc list-inside text-white p-4">
               <li className="list-item w-full">All standard and advanced features</li>
               <li className="list-item">5 active chatbots</li>
               <li className="list-item">Send up to 40k mails</li>
             </ul>
-          </div>
+          </section>
           <button className="bg-white text-formbg font-bold items-center justify-center rounded-xl w-[60%] py-2 px-8 mt-4 mb-2">Start Free Trial</button>
           <span>Learn more</span>
-        </div>
-      </div>
+        </section>
+      </section>
             
-    </div>
+    </section>
   );
 };
 
