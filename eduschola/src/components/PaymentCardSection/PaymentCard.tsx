@@ -9,7 +9,7 @@ const PaymentCard = () => {
   };
 
   return (
-    <div className="flex flex-col w-full h-100 items-center justify-center my-8">
+    <div className="flex flex-col w-full h-100 items-center justify-center my-8 relative lg:mt-40">
       <div className="flex relative w-80 justify-center items-center">
         <div
           className={`absolute flex items-center rounded-full border border-formbg h-10 w-64 cursor-pointer overflow-hidden`}
@@ -25,6 +25,7 @@ const PaymentCard = () => {
             id="subscription-mode-toggle"
             className="hidden peer focus:outline-none"
             checked={isMonthly}
+            // onChange={isMonthly}
           />
           <label
             htmlFor="dark-mode-toggle"
