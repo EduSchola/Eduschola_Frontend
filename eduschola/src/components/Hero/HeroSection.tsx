@@ -1,5 +1,6 @@
 import { url } from "inspector";
 import React from "react";
+import Link from "next/link";
 import Image from "next/image";
 
 const Hero = () => {
@@ -21,7 +22,7 @@ const Hero = () => {
 
           <section className="md:flex items-center content-center justify-center pt-8 hidden">
             <button className="opacity-[0.9] py-[20px] px-[100px] text-white bg-cta border-none outline-none cursor-pointer rounded-[6px]">
-              Get Started
+              <Link href="/get-started">Get Started</Link>
             </button>
           </section>
         </section>
