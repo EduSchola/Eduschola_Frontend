@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'Convergence', 'system-ui', 'sans-serif'],
+      },
       backgroundImage: {
         "hero-bg": "url(../assets/images/hero.png)",
         "footer-bg": "url(../assets/images/Vector.png)",
