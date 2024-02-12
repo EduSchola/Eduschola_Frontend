@@ -43,7 +43,7 @@ const Navbar = () => {
       </div>
 
       <div className={`flex items-center ml-auto md:flex ${isOpen ? "flex" : "hidden"} flex-col md:flex-row items-center md:items-center`}>
-        <Link href="/get-started">
+        <Link href="/getstarted">
           <div className={`border ${isOpen ? 'border-white text-white hover:text-074786' : 'border-cta'} text-cta px-4 py-2 rounded hover:bg-cta hover:text-white`}>
             Get Started
           </div>

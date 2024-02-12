@@ -49,7 +49,7 @@ const Footer = () => {
                             <span className="text-cta">free mode</span>
                         </p>
                         <button className="text-1.5x bg-cta hover-cta_hover text-white w-[45%] lg:w-[30%] py-2">
-                            Get Started
+                            <Link href="/get-started">Get Started</Link>
                         </button>
                     </section>
                 </section>

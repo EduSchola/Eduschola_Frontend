@@ -124,7 +124,7 @@ const getStarted = () => {
     
       
     return (
-        <section className="w-full flex flex-col items-center justify-center">
+        <section className="w-full flex flex-col items-center justify-center my-10">
             <form className="w-full flex flex-col items-center justify-center">
                 {currentStep === 1 && (
                     <section className="flex flex-col text-white bg-formbg items-center justify-center w-full relative">
