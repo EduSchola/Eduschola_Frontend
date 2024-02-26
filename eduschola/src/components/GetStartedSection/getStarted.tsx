@@ -128,7 +128,7 @@ const GetStarted = () => {
             <form className="w-full flex flex-col items-center justify-center">
                 {currentStep === 1 && (
                     <section className="flex flex-col text-white bg-formbg items-center justify-center w-full relative">
-                        <section className="flex mt-24 items-center justify-center w-full h-fit text-l"><h3 className="lg:text-2xl">Let's get started</h3></section>
+                        <section className="flex mt-24 items-center justify-center w-full h-fit text-l"><h3 className="lg:text-2xl">Let&#39;s get started</h3></section>
                         <section className="flex flex-row mt-4 w-full items-center justify-center">
                             <section className="border border-cta rounded-full px-6 py-4 items-center justify-center">1</section>
                             <span className="inset-x-0 bottom-0 h-0.5 bg-cta w-10 lg:w-40"></span> 
@@ -158,7 +158,7 @@ const GetStarted = () => {
 
                     <section className="flex justify-center items-center relative my-4 w-full">
                         <label htmlFor="schoolAddress" className="block absolute top-2.5 left-10 lg:left-40  -translate-y-3/4 bg-formbg px-3 py-1 text-white transform duration-300 origin-top-left transition-all">
-                        School's Address
+                        School&#39;s Address
                         </label>
                         <input
                             type="text"

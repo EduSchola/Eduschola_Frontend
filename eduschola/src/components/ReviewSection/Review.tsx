@@ -36,10 +36,10 @@ const Review = () => {
           </section>
           <section className="flex items-center justify-center text-center w-[90%] text-base my-4">
                 <article>
-                  “Using the EduSchola Education Management system at work makes my work easy.
-                   It's extensive and accurste reporting and analysis on the students makes
+                &quot;Using the EduSchola Education Management system at work makes my work easy.
+                   It&#39;s extensive and accurste reporting and analysis on the students makes
                    understanding my students better and aslo makes communication with them a lot
-                   smoother. I definitely recommend this platform for schools a like."
+                   smoother. I definitely recommend this platform for schools a like.&quot;
                 </article>
               </section>
 
@@ -63,11 +63,11 @@ const Review = () => {
           </section>
           <section className="flex items-center justify-center text-center w-[90%] text-base my-4">
                 <article>
-                “I would highly recommend Eduschola to anyone 
+                &quot;I would highly recommend Eduschola to anyone 
                 looking for a reliable and comprehensive online platform with reliable
                 educational resources. The user interface is great and easy to navigate. 
                 I also highly recommend the E-Library for its educaional resources and 
-                great collection of multimedia resources.”
+                great collection of multimedia resources.&quot;
                 </article>
               </section>
 
@@ -91,9 +91,9 @@ const Review = () => {
           </section>
           <section className="flex items-center justify-center text-center w-[90%] text-base my-4">
                 <article>
-                “Using Eduschola made it easy for me to manage all of my course materials
+                &quot;Using Eduschola made it easy for me to manage all of my course materials
                  and assignments. The gradebook feature was especially helpful, as it allowed
-                 me to quickly and easily manage my students grades. I will highly recommend it to anyone.”
+                 me to quickly and easily manage my students grades. I will highly recommend it to anyone.&quot;
                 </article>
               </section>
 

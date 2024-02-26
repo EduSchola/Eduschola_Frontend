@@ -44,8 +44,8 @@ const AboutUs = () => {
                     </ul>
                     {/* <br/>    */}
 
-                    <p className="mt-2 lg:mt-8">This is the vision that drives EduSchola. We're not just an education management system; 
-                        we're a catalyst for transformation.</p>
+                    <p className="mt-2 lg:mt-8">This is the vision that drives EduSchola. We&#39;re not just an education management system; 
+                        we&#39;re a catalyst for transformation.</p>
 {/* 
                     <h3 className="font-bold">At our core, we believe in:</h3>
 
@@ -58,11 +58,11 @@ const AboutUs = () => {
                             educators and administrators towards informed decisions that optimize learning and outcomes.</li>
                     </ul>
 
-                    <h3 className="font-bold">EduSchola is more than just software; it's a community:</h3>
+                    <h3 className="font-bold">EduSchola is more than just software; it&#39;s a community:</h3>
 
                     <ul className="list-disc list-inside text-white p-4">
                         <li className="list-item"><span className="font-bold">Educators:</span> Connect, share best practices, and tap into a network of support within our vibrant online community.</li>
-                        <li className="list-item"><span className="font-bold">Administrators:</span> Gain a bird's-eye view of your institution, make data-driven decisions, and empower your team to excel.</li>
+                        <li className="list-item"><span className="font-bold">Administrators:</span> Gain a bird&#39;s-eye view of your institution, make data-driven decisions, and empower your team to excel.</li>
                         <li className="list-item"><span className="font-bold">Students:</span> Benefit from personalized learning experiences, real-time feedback, and a system that supports their unique needs and aspirations.</li>
 
                     </ul>
