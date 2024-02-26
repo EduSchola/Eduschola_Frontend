@@ -9,9 +9,9 @@ const PaymentCard = () => {
   };
 
   return (
-    <div className="flex flex-col w-full h-100 items-center justify-center my-10 relative lg:mt-40">
-      <div className="flex relative w-80 justify-center items-center mt-32">
-        <div
+    <section className="flex flex-col w-full h-100 items-center justify-center my-10 relative lg:mt-40">
+      <section className="flex relative w-80 justify-center items-center mt-32">
+        <section
           className={`absolute flex items-center rounded-full border border-formbg h-10 w-64 cursor-pointer overflow-hidden`}
           onClick={handleToggle}
         >
