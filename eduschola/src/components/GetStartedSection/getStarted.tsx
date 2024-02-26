@@ -23,7 +23,7 @@ interface FormData {
     staffPword: string;
 }
 
-const getStarted = () => {
+const GetStarted = () => {
     const [currentStep, setCurrentStep] = useState<number>(1);
     const [formData, setFormData] = useState<FormData>({
         sch_name: '',
@@ -627,4 +627,4 @@ const getStarted = () => {
     )
 }
 
-export default getStarted;
+export default GetStarted;
